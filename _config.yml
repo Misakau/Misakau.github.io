@@ -3,4 +3,8 @@ plugins:
 
 skin: daylight
 
+email: 452447241@qq.com
+
+avatar: /logo.png
+
 remote_theme: ngzhio/jekyll-theme-hamilton
