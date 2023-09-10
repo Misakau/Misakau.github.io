@@ -1,12 +1,6 @@
-- title: About
-  url: /about/
+- title: Home
+  url: /home/
 - title: Projects
   url: /projects/
 - title: Publications
   url: /publications/
-- title: More
-  sublinks:
-    - title: FAQ
-      url: /
-    - title: Docs
-      url: /
