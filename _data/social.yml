@@ -4,3 +4,6 @@
 - title: Email
   url: mailto:wxun577@gmail.com
   icon: fa fa-envelope
+- title: CV
+  url: /ENCV.pdf
+  icon: ai ai-cv
