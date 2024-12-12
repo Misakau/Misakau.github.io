@@ -158,4 +158,14 @@
       {% endif %}      
     </ul>
   </div>
+
+  <div id="friend-links">
+    <h3>友链</h3>
+    <ul>
+        {% for friend in site.data.friends %}
+        <li><a href="{{ friend.url }}" target="_blank">{{ friend.name }}</a></li>
+        {% endfor %}
+    </ul>
+  </div>
+
 </div>
