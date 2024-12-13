@@ -19,7 +19,7 @@ Publications
 ------
 - Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, preprint. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
 
-- **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang. *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
+- **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang. *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. <strong style="color: red;">Oral</strong>. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
 
 Project
 ------
