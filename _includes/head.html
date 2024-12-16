@@ -20,13 +20,13 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // add the 'copy' button for each code block
+    /* add the 'copy' button for each code block */
     document.querySelectorAll(".highlight > pre > code, pre > code").forEach(function (codeBlock) {
       const copyButton = document.createElement("button");
       copyButton.className = "copy-button";
       copyButton.innerText = "Copy";
 
-      // copy codes when click
+      /* copy codes when click */
       copyButton.addEventListener("click", function () {
         const codeText = codeBlock.innerText;
 
@@ -38,7 +38,7 @@
         });
       });
 
-      // insert the button into code blocks
+      /* insert the button into code blocks */
       const pre = codeBlock.parentNode;
       pre.parentNode.insertBefore(copyButton, pre);
     });
