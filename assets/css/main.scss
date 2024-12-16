@@ -39,3 +39,37 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* code block container */
+pre {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    overflow: auto;
+  }
+  
+  .copy-button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .copy-button:hover {
+    opacity: 1;
+  }
+  
+  .copy-button:active {
+    background-color: #0056b3;
+  }
+  

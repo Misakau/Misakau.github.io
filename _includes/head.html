@@ -15,6 +15,37 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<!-- Clipboard.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // add the 'copy' button for each code block
+    document.querySelectorAll("pre > code").forEach(function (codeBlock) {
+      const copyButton = document.createElement("button");
+      copyButton.className = "copy-button";
+      copyButton.innerText = "Copy";
+
+      // copy codes when click
+      copyButton.addEventListener("click", function () {
+        const codeText = codeBlock.innerText;
+
+        navigator.clipboard.writeText(codeText).then(function () {
+          copyButton.innerText = "Copied!";
+          setTimeout(() => (copyButton.innerText = "Copy"), 2000);
+        }).catch(function () {
+          copyButton.innerText = "Failed!";
+        });
+      });
+
+      // 将按钮插入到代码块容器中
+      const pre = codeBlock.parentNode;
+      pre.parentNode.insertBefore(copyButton, pre);
+    });
+  });
+</script>
+
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
