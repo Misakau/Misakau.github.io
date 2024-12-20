@@ -13,11 +13,12 @@ I got my Bachelor degree from Nanjing University in 2024. I am generally interes
 
 News
 ------
+- **Dec. 2024:** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
 - **Dec. 2024:** New homepage is launched!
 
 Publications
 ------
-- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, preprint. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
+- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, accepted to The 24th International Conference on Autonomous Agents and Multi-Agent Systems. (<span style="background-color:#FFF8DC;">AAMAS</span>), May. 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
 
 - **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang. *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. <strong style="color: red;">Oral</strong>. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
 
