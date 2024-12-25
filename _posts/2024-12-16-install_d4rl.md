@@ -78,7 +78,7 @@ pip install -e .
 ```
 完成后测试是否能够成功导入`d4rl`包。
 
-### 可能会有一些报错，需要注意下面几个确认点（持续更新中）：
+### 可能会有一些报错，需要注意下面几个确认点：
 **确认点1**
 
 `/usr/lib/nvidia`是否添加到环境变量，如果没有，执行下面的命令：
@@ -97,4 +97,11 @@ pip install Cython==3.0.0a10
 ```bash
 sudo apt-get update
 sudo apt-get install libx11-dev
+```
+**确认点4**
+
+是否安装`GL/glew`开发工具包，如果未安装，通过以下命令安装：
+```bash
+sudo apt-get update
+sudo apt-get install libglew-dev
 ```
