@@ -1,24 +1,29 @@
 ---
 permalink: /
-title: "About"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Currently I am a Ph.D. Student from Tsinghua University, Institute for Interdisciplinary Information (IIIS).
+Hi! I am Xun Wang (汪洵 in Chinese).
 
-I got my Bachelor degree from Nanjing University in 2024. I am generally interested in AI for Decisions, especially for Reinforcement Learning (RL).
+I am currently a first-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to my Ph.D., I earned a Bachelor of Science degree from Nanjing University in 2024.
+
+I am generally interested in AI for Decisions, especially for Reinforcement Learning (RL) algorithms and their applications.
 
 News
 ------
 - **Dec. 2024:** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
-- **Dec. 2024:** New homepage is launched!
+- **Jul. 2023:** Paper "SDV: Simple Double Validation Model-based Offline Reinforcement Learning" accepted to ECAI 2023!
+
+Preprints
+------
+- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, accepted to The 24th International Conference on Autonomous Agents and Multi-Agent Systems. (<span style="background-color:#FFF8DC;">AAMAS</span>), May. 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
 
 Publications
 ------
-- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, accepted to The 24th International Conference on Autonomous Agents and Multi-Agent Systems. (<span style="background-color:#FFF8DC;">AAMAS</span>), May. 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
 
 - **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang. *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. <strong style="color: red;">Oral</strong>. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
 
