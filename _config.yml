@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xun Wang's HomePage"
+title                    : "Xun Wang"
 title_separator          : "-"
 name                     : &name "Xun Wang"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "pic.jpg"
   name             : "Xun Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student at IIIS"
+  bio              : "I am a first-year Ph.D. student @ IIIS, Tsinghua."
   location         : "Earth"
   employer         : "Tsinghua University"
   uri              : # URL
@@ -117,7 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
