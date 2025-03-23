@@ -14,6 +14,6 @@ redirect_from:
 src="/images/ysyx.jpg" width="65%" alt=""/>
 <br>
 <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">
-<a href="https://ysyx.oscc.cc/">OSCPU(一生一芯)</a>, Session 4, Chips and Boards.
+<a href="https://ysyx.oscc.cc/">OSCPU(一生一芯)</a>, Session 4, Chip and Board.
 </div>
 </center>
