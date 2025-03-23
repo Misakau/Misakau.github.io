@@ -221,6 +221,9 @@ collections:
   misc:
     output: true
     permalink: /:collection/:path/
+  friends:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
