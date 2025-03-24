@@ -13,3 +13,5 @@ redirect_from:
 [Centaurus99](https://blog.centaurus99.top/) @ THU
 
 [Moonout](https://www.cnblogs.com/moonout) @ THU
+
+[Ruishuo Chen](https://rayshore.cn/) @ NJU
