@@ -8,10 +8,13 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Haonan Chen](https://chenhn02.github.io) @ NUS <!-- working on Embodied AI, Robotics & Computer Vision -->
 
 [Centaurus99](https://blog.centaurus99.top/) @ THU
 
 [Moonout](https://www.cnblogs.com/moonout) @ THU
 
+[Zhuoran Li](https://lizr16.github.io/) @ THU
+
 [Ruishuo Chen](https://rayshore.cn/) @ NJU
+
+[Haonan Chen](https://chenhn02.github.io) @ NUS <!-- working on Embodied AI, Robotics & Computer Vision -->
