@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I am Xun Wang (汪洵 in Chinese).
 
-I am currently a first-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to this, I earned a Bachelor of Science degree from [Nanjing University](https://www.nju.edu.cn/en/) in 2024.
+I am currently a first-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to this, I earned a Bachelor of Science degree in 2024 from the [School of Computer Science](https://cs.nju.edu.cn/cs_en/) at [Nanjing University](https://www.nju.edu.cn/en/).
 
 I am generally interested in AI for Decisions, especially for Reinforcement Learning (RL) algorithms and their applications.
 
