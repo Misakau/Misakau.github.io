@@ -13,6 +13,8 @@ redirect_from:
 
 [Moonout](https://www.cnblogs.com/moonout) @ THU
 
+[Yu Chen](https://custyhs.github.io/) @ THU
+
 [Zhuoran Li](https://lizr16.github.io/) @ THU
 
 [Ruishuo Chen](https://rayshore.cn/) @ NJU
