@@ -15,6 +15,7 @@ I am generally interested in AI for Decisions, especially for Reinforcement Lear
 
 News
 ------
+- **Jul. 2025:** Paper "Online Adaptable Offline RL with Guidance Model" accepted to TNNLS!
 - **Mar. 2025:** Paper "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining" accepted to TMLR!
 - **Dec. 2024:** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
 - **Jul. 2023:** Paper "SDV: Simple Double Validation Model-based Offline Reinforcement Learning" accepted to ECAI 2023!
@@ -22,6 +23,8 @@ News
 Publications
 ------
 \* indicates equal contribution
+- **Xun Wang**, Jingmian Wang, Zhuzhong Qian and Bolei Zhang. *Online Adaptable Offline RL with Guidance Model*, IEEE Transactions on Neural Networks and Learning Systems (<span style="background-color:#FFF8DC;">TNNLS</span>), Jul. 2025.
+
 - Pihe Hu\*, Shaolong Li\*, **Xun Wang**, Longbo Huang, *Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining*, Transactions on Machine Learning Research (<span style="background-color:#FFF8DC;">TMLR</span>), Mar. 2025. [\[pdf\]](https://openreview.net/pdf?id=XosdLS7KVE) [\[code\]](https://github.com/hupihe/Mixed-Sparsity-Training)
 
 - Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, accepted to The 24th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
