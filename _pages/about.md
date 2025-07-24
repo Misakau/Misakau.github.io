@@ -27,6 +27,6 @@ Publications
 
 - Pihe Hu\*, Shaolong Li\*, **Xun Wang**, Longbo Huang, *Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining*, Transactions on Machine Learning Research (<span style="background-color:#FFF8DC;">TMLR</span>), Mar. 2025. [\[pdf\]](https://openreview.net/pdf?id=XosdLS7KVE) [\[code\]](https://github.com/hupihe/Mixed-Sparsity-Training)
 
-- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, accepted to The 24th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
+- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, the 24th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2025. [\[arXiv\]](https://arxiv.org/abs/2410.19450)
 
 - **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang. *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. <strong style="color: red;">Oral</strong>. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
