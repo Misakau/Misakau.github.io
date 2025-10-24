@@ -24,7 +24,7 @@ News
 Publications
 ------
 \* indicates equal contribution
-- **Xun Wang**\*, Zhuoran Li\*, Longbo Huang, *Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning*, the 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (<span style="background-color:#FFF8DC;">MobiHoc</span>), Jul. 2025. [\[pdf\]](https://github.com/hupihe/RSD4) [\[code\]](https://github.com/Misakau/HEMA)
+- **Xun Wang**\*, Zhuoran Li\*, Longbo Huang, *Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning*, the 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (<span style="background-color:#FFF8DC;">MobiHoc</span>), Oct. 2025. [\[pdf\]](https://github.com/hupihe/RSD4) [\[code\]](https://github.com/Misakau/HEMA)
 
 - **Xun Wang**, Jingmian Wang, Zhuzhong Qian and Bolei Zhang. *Online Adaptable Offline RL with Guidance Model*, IEEE Transactions on Neural Networks and Learning Systems (<span style="background-color:#FFF8DC;">TNNLS</span>), Jul. 2025. [\[Early Access\]](https://ieeexplore.ieee.org/document/11095835)
 
