@@ -26,7 +26,7 @@ Publications
 \* indicates equal contribution
 - **Xun Wang**\*, Zhuoran Li\*, Longbo Huang, *Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning*, the 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (<span style="background-color:#FFF8DC;">MobiHoc</span>), Oct. 2025. [\[pdf\]](https://dl.acm.org/doi/10.1145/3704413.3764445) [\[code\]](https://github.com/Misakau/HEMA)
 
-- **Xun Wang**, Jingmian Wang, Zhuzhong Qian and Bolei Zhang, *Online Adaptable Offline RL with Guidance Model*, IEEE Transactions on Neural Networks and Learning Systems (<span style="background-color:#FFF8DC;">TNNLS</span>), Jul. 2025. [\[Early Access\]](https://ieeexplore.ieee.org/document/11095835)
+- **Xun Wang**, Jingmian Wang, Zhuzhong Qian and Bolei Zhang, *Online Adaptable Offline RL with Guidance Model*, IEEE Transactions on Neural Networks and Learning Systems (<span style="background-color:#FFF8DC;">TNNLS</span>), vol. 36, no. 11, pp. 19762-19774, Nov. 2025. [\[pdf\]](https://ieeexplore.ieee.org/document/11095835)
 
 - Pihe Hu\*, Shaolong Li\*, **Xun Wang**, Longbo Huang, *Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining*, Transactions on Machine Learning Research (<span style="background-color:#FFF8DC;">TMLR</span>), Mar. 2025. [\[pdf\]](https://openreview.net/pdf?id=XosdLS7KVE) [\[code\]](https://github.com/hupihe/Mixed-Sparsity-Training)
 
