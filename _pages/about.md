@@ -15,7 +15,7 @@ I am generally interested in AI for Decisions, especially for Reinforcement Lear
 
 News
 ------
-- **Feb. 2025:** Paper "OM²P: Offline Multi-Agent Mean-Flow Policy" accepted to AAMAS 2026!
+- **Feb. 2026:** Paper "OM²P: Offline Multi-Agent Mean-Flow Policy" accepted to AAMAS 2026!
 - **Jul. 2025:** Paper "Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning" accepted to MobiHoc 2025!
 - **Jul. 2025:** Paper "Online Adaptable Offline RL with Guidance Model" accepted to TNNLS!
 - **Mar. 2025:** Paper "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining" accepted to TMLR!
