@@ -14,8 +14,8 @@ main:
   - title: "Misc"
     url: /misc/
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Services"
+    url: /services/    
 
   # - title: "Teaching"
   #   url: /teaching/    
