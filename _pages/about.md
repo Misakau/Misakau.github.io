@@ -27,7 +27,7 @@ Publications
 \* indicates equal contribution
 - Zhuoran Li, **Xun Wang**, Hai Zhong, Qingxin Xia, Lihua Zhang, Longbo Huang, *OM²P: Offline Multi-Agent Mean-Flow Policy*, Proceedings of The 25th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2026.
 
-- **Xun Wang**, Longbo Huang and John C.S. Lui, *Effective Entanglement Scheduling in Quantum Networks via Deep Reinforcement Learning*, Proceedings of International Conference on Quantum Communications, Networking, and Computing (QCNC), April 2026. (**Invited Paper**)
+- **Xun Wang**, Longbo Huang, John C.S. Lui, *Effective Entanglement Scheduling in Quantum Networks via Deep Reinforcement Learning*, Proceedings of International Conference on Quantum Communications, Networking, and Computing (<span style="background-color:#FFF8DC;">QCNC</span>), April 2026. (**Invited Paper**)
 
 - **Xun Wang**\*, Zhuoran Li\*, Longbo Huang, *Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning*, the 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (<span style="background-color:#FFF8DC;">MobiHoc</span>), Oct. 2025. [\[pdf\]](https://dl.acm.org/doi/10.1145/3704413.3764445) [\[code\]](https://github.com/Misakau/HEMA)
 
