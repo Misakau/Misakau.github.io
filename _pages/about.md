@@ -15,12 +15,13 @@ I am generally interested in AI for Decisions, especially for Reinforcement Lear
 
 News
 ------
-- **Feb. 2026:** Paper "OM²P: Offline Multi-Agent Mean-Flow Policy" accepted to AAMAS 2026!
-- **Jul. 2025:** Paper "Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning" accepted to MobiHoc 2025!
-- **Jul. 2025:** Paper "Online Adaptable Offline RL with Guidance Model" accepted to TNNLS!
-- **Mar. 2025:** Paper "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining" accepted to TMLR!
-- **Dec. 2024:** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
-- **Jul. 2023:** Paper "SDV: Simple Double Validation Model-based Offline Reinforcement Learning" accepted to ECAI 2023!
+- **[2026.05]** Four papers on RL and GFlowNets accepted to ICML 2026!
+- **[2026.02]** Paper "OM²P: Offline Multi-Agent Mean-Flow Policy" accepted to AAMAS 2026!
+- **[2025.07]** Paper "Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning" accepted to MobiHoc 2025!
+- **[2025.07]** Paper "Online Adaptable Offline RL with Guidance Model" accepted to TNNLS!
+- **[2025.03]** Paper "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining" accepted to TMLR!
+- **[2024.12]** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
+<!-- - **Jul. 2023:** Paper "SDV: Simple Double Validation Model-based Offline Reinforcement Learning" accepted to ECAI 2023! -->
 
 Publications
 ------
