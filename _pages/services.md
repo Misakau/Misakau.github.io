@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ### Conference Reviewing
- ICML 2026;
+ ICML 2026 (<span style="color:rgb(153, 153, 153); font-weight: bold;">Silver Reviewer</span> Award);
 ### Journal Reviewing
 IEEE Transactions on Neural Networks and Learning Systems;
 ### Teaching Assistant
