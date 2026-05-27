@@ -32,7 +32,7 @@ Publications
 - Zhuoran Li, Hai Zhong, **Xun Wang**, Qingxin Xia, Lihua Zhang, Longbo Huang, *Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies,* Proceedings of Forty-third International Conference on Machine Learning (<span style="background-color:#FFF8DC;">ICML</span>), July 2026.
 
 
-- Zhuoran Li, **Xun Wang**, Hai Zhong, Qingxin Xia, Lihua Zhang, Longbo Huang, *OM²P: Offline Multi-Agent Mean-Flow Policy*, Proceedings of The 25th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2026.
+- Zhuoran Li, **Xun Wang**, Hai Zhong, Qingxin Xia, Lihua Zhang, Longbo Huang, *OM²P: Offline Multi-Agent Mean-Flow Policy*, Proceedings of The 25th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2026. [\[pdf\]](https://ifaamas.org/Proceedings/aamas2026/pdfs/WULT4244.pdf)
 
 - **Xun Wang**, Longbo Huang, John C.S. Lui, *Effective Entanglement Scheduling in Quantum Networks via Deep Reinforcement Learning*, Proceedings of International Conference on Quantum Communications, Networking, and Computing (<span style="background-color:#FFF8DC;">QCNC</span>), Apr. 2026. (**Invited Paper**) [\[pdf\]](https://ieeexplore.ieee.org/abstract/document/11500282)
 
