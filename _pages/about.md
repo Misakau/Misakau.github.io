@@ -11,7 +11,7 @@ Hi! I am Xun Wang (汪洵 in Chinese).
 
 I am currently a second-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to this, I earned a Bachelor of Science degree in 2024 from the [School of Computer Science](https://cs.nju.edu.cn/cs_en/) at [Nanjing University](https://www.nju.edu.cn/en/).
 
-I am generally interested in AI for Decisions, especially for Reinforcement Learning (RL) algorithms and their applications.
+My research interests broadly lie in AI for decision-making, with a particular focus on the algorithms and applications of Reinforcement Learning (RL), Large Language Models (LLMs), and their intersection.
 
 News
 ------
