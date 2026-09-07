@@ -10,8 +10,10 @@ redirect_from:
 {% include base_path %}
 
 ### Conference Reviewing
- ICML 2026 (<span style="color:rgb(153, 153, 153); font-weight: bold;">Silver Reviewer</span> Award);
+ - ICML 2026 (<span style="color:rgb(153, 153, 153); font-weight: bold;">Silver Reviewer</span> Award);
+ - AAAI 2027
 ### Journal Reviewing
-IEEE Transactions on Neural Networks and Learning Systems;
+ - IEEE Transactions on Neural Networks and Learning Systems;
+ - IEEE Journal on Selected Areas in Communications;
 ### Teaching Assistant
-2025-2026 Autumn Semester: Introduction to Computer Networks (Undergraduate)
+ - 2025-2026 Autumn Semester: Introduction to Computer Networks (Undergraduate)
