@@ -12,7 +12,6 @@ redirect_from:
 ### Conference Reviewing
  - ICML 2026 (<span style="color:rgb(153, 153, 153); font-weight: bold;">Silver Reviewer</span> Award);
  - AAAI 2027
- - ICLR 2027
 ### Journal Reviewing
  - IEEE Transactions on Neural Networks and Learning Systems;
  - IEEE Journal on Selected Areas in Communications;
