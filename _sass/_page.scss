@@ -399,3 +399,33 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Home page header: name and one-line bio above the content
+   ========================================================================== */
+
+.home-header {
+  margin-bottom: 1.5em;
+}
+
+.page__content h1.home-header__name {
+  margin: 0;
+  color: $navy;
+  font-size: 2.2em;
+  line-height: 1.15;
+}
+
+.home-header__name-cn {
+  margin-left: 0.4em;
+  color: $gray;
+  font-family: $cjk-sans-serif;
+  font-size: 0.72em;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+.home-header__bio {
+  margin: 0.4em 0 0 !important;
+  color: mix(#fff, $text-color, 30%);
+  font-size: 1.05em;
+}

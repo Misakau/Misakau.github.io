@@ -19,6 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    position: relative;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
@@ -55,4 +56,39 @@
     padding-right: 2em;
     font-weight: 700;
   }
+}
+/* dark mode toggle, kept outside the greedy nav so it never collapses */
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  padding: 0.25em;
+  border: 0;
+  background: transparent;
+  color: $light-blue;
+  font-size: 1.1em;
+  cursor: pointer;
+  transform: translateY(-50%);
+
+  &:hover {
+    color: $navy;
+  }
+
+  .fa-sun {
+    display: none;
+  }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  .fa-moon {
+    display: none;
+  }
+
+  .fa-sun {
+    display: inline-block;
+  }
+}
+
+.masthead__menu .greedy-nav {
+  margin-right: 2.5em;
 }

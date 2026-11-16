@@ -79,6 +79,14 @@
   }
 }
 
+/* the stacked mobile layout has no divider line */
+.pub__venue--journal,
+.pub__venue--preprint {
+  @include breakpoint(max-width $small) {
+    border-right: none;
+  }
+}
+
 .pub-legend {
   float: right;
   font-size: $type-size-6;

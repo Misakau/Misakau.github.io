@@ -1,0 +1,4 @@
+<header class="home-header">
+  <h1 class="home-header__name">{{ site.author.name }}{% if site.author.name_cn %}<span class="home-header__name-cn">{{ site.author.name_cn }}</span>{% endif %}</h1>
+  {% if site.author.bio %}<p class="home-header__bio">{{ site.author.bio }}</p>{% endif %}
+</header>

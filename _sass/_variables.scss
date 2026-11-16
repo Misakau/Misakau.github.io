@@ -15,6 +15,7 @@ $indent-var                 : 1.3em;
 /* system typefaces */
 $serif                      : "Times New Roman", Times, "Liberation Serif", "Nimbus Roman", serif;
 $sans-serif                 : $serif;
+$cjk-sans-serif             : "Microsoft YaHei", "DengXian", "SimHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -73,6 +74,20 @@ $sky-blue                   : #2a8bd8;
 $oral-color                 : #c0392b;
 $journal-color              : #9a6700; // ochre: stays distinct from blue under common color blindness
 $arxiv-color                : #b31b1b; // arXiv brand red
+
+/* dark theme */
+$dark-background            : #14181e;
+$dark-surface               : #1c2129;
+$dark-border                : #2d343e;
+$dark-text                  : #d5d9df;
+$dark-muted                 : #98a1ab;
+$dark-heading               : #7aa7e8;
+$dark-navy                  : #b3cdf5;
+$dark-light-blue            : #7b97bd;
+$dark-link                  : #62b2f0;
+$dark-journal               : #d8a645;
+$dark-oral                  : #ff8f85;
+$dark-arxiv                 : #ff6b6b;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;

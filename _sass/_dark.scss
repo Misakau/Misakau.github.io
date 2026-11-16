@@ -1,0 +1,243 @@
+/* ==========================================================================
+   DARK THEME
+   Applied when <html data-theme="dark">; see _includes/head/custom.html
+   and the toggle in _includes/masthead.html.
+   ========================================================================== */
+
+/* :where() keeps this as weak as the base `a` rule, so links styled with
+   `color: inherit` (sidebar, footer, page meta) keep inheriting */
+html:where([data-theme="dark"]) a {
+  color: $dark-link;
+
+  &:hover {
+    color: $dark-heading;
+  }
+}
+
+html[data-theme="dark"] {
+  background-color: $dark-background;
+  color-scheme: dark;
+
+  body {
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-heading;
+  }
+
+  h1,
+  .author__name {
+    color: $dark-navy;
+  }
+
+  hr {
+    border-top-color: $dark-border;
+  }
+
+  code, pre {
+    background: $dark-surface;
+  }
+
+  table, th, td {
+    border-color: $dark-border;
+  }
+
+  thead {
+    background-color: $dark-surface;
+  }
+
+  /* masthead and navigation */
+  .masthead,
+  .greedy-nav {
+    background: $dark-background;
+    border-color: $dark-border;
+  }
+
+  .greedy-nav {
+    a {
+      color: $dark-light-blue;
+
+      &:hover {
+        color: $dark-navy;
+      }
+    }
+
+    .visible-links {
+      a:before {
+        background: $dark-light-blue;
+      }
+
+      li:first-child a,
+      .masthead__menu-item--active a {
+        color: $dark-navy;
+      }
+
+      .masthead__menu-item--active a:before {
+        background: $dark-navy;
+      }
+    }
+
+    button {
+      background-color: $dark-surface;
+    }
+
+    .hidden-links {
+      border-color: $dark-border;
+      background: $dark-surface;
+
+      a:hover {
+        background: $dark-border;
+      }
+
+      .masthead__menu-item--active a {
+        color: $dark-navy;
+      }
+
+      &:before {
+        border-color: $dark-border transparent;
+      }
+
+      &:after {
+        border-color: $dark-surface transparent;
+      }
+    }
+  }
+
+  .theme-toggle {
+    color: $dark-light-blue;
+
+    &:hover {
+      color: $dark-navy;
+    }
+  }
+
+  /* page and sidebar */
+  .page__content h2 {
+    border-bottom-color: $dark-border;
+  }
+
+  .author__avatar img {
+    border-color: $dark-heading;
+  }
+
+  .author__name-cn,
+  .author__bio,
+  .home-header__name-cn,
+  .home-header__bio {
+    color: $dark-muted;
+  }
+
+  .page__content h1.home-header__name {
+    color: $dark-navy;
+  }
+
+  .author__urls {
+    background: $dark-surface;
+    border-color: $dark-border;
+
+    @include breakpoint($large) {
+      background: transparent;
+    }
+  }
+
+  .social-icons .fa-github,
+  .social-icons .fa-github-square {
+    color: $dark-text;
+  }
+
+  .btn--inverse {
+    border-color: $dark-border !important;
+    background-color: $dark-surface;
+    color: $dark-muted !important;
+  }
+
+  .page__footer {
+    border-top-color: $dark-border;
+    background-color: $dark-surface;
+    color: $dark-muted;
+  }
+
+  /* publications */
+  .pub {
+    border-bottom-color: $dark-border;
+  }
+
+  .pub__venue {
+    border-right-color: mix($dark-background, $dark-heading, 45%);
+  }
+
+  .pub__venue-name,
+  .pub__me {
+    color: $dark-heading;
+  }
+
+  .pub__venue-year,
+  .pub__venue-type,
+  .pub__meta,
+  .pub-years {
+    color: $dark-muted;
+  }
+
+  .pub__venue--journal {
+    border-right-color: mix($dark-background, $dark-journal, 40%);
+
+    .pub__venue-name {
+      color: $dark-journal;
+    }
+  }
+
+  .pub__venue--preprint {
+    border-right-color: mix($dark-background, $dark-muted, 40%);
+
+    .pub__venue-name {
+      color: $dark-text;
+    }
+  }
+
+  .pub-legend__item {
+    border-left-color: mix($dark-background, $dark-heading, 45%);
+    color: $dark-heading;
+
+    &--journal {
+      border-left-color: mix($dark-background, $dark-journal, 40%);
+      color: $dark-journal;
+    }
+  }
+
+  .pub-years a {
+    border-color: mix($dark-background, $dark-heading, 50%);
+    color: $dark-heading;
+
+    &:hover {
+      background: $dark-heading;
+      color: $dark-background;
+    }
+  }
+
+  .pub__tag {
+    border-color: mix($dark-background, $dark-oral, 50%);
+    background: mix($dark-background, $dark-oral, 85%);
+    color: $dark-oral;
+  }
+
+  .page__content a.pub__btn {
+    border-color: $dark-border;
+    background: $dark-surface;
+    color: $dark-text;
+
+    &:hover {
+      border-color: $dark-heading;
+      background: $dark-heading;
+      color: $dark-background;
+    }
+
+    .pub__icon-arxiv {
+      color: $dark-arxiv;
+    }
+
+    &:hover .pub__icon-arxiv {
+      color: $dark-background;
+    }
+  }
+}

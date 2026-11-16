@@ -3,14 +3,15 @@ permalink: /
 title: "About Me"
 author_profile: true
 hide_title: true
+home_header: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About Me
-------
-Hi! I am Xun Wang (汪洵 in Chinese).
+{% include home-header.html %}
+
+Hi, I am Xun Wang!
 
 I am currently a third-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to this, I earned a Bachelor of Science degree in 2024 from the [School of Computer Science](https://cs.nju.edu.cn/cs_en/) at [Nanjing University](https://www.nju.edu.cn/en/).
 

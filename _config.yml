@@ -23,10 +23,11 @@ author:
   # Biographic information
   avatar           : "pic.jpg"
   name             : "Xun Wang"
+  name_cn          : "汪洵" # Chinese name shown next to the name in the sidebar
   pronouns         : # example: "she/her"  
-  bio              : "I am a third-year Ph.D. student @ IIIS, Tsinghua."
-  location         : "Earth"
-  employer         : "Tsinghua University"
+  bio              : "Third-year Ph.D. student @ IIIS, Tsinghua."
+  location         : 
+  employer         : 
   uri              : # URL
   email            : "wang-x24@mails.tsinghua.edu.cn" 
 

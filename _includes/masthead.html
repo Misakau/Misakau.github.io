@@ -3,6 +3,9 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fas fa-moon" aria-hidden="true"></i><i class="fas fa-sun" aria-hidden="true"></i>
+      </button>
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -21,3 +24,21 @@
     </div>
   </div>
 </div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    document.querySelector('.theme-toggle').addEventListener('click', function () {
+      var theme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      try { localStorage.setItem('theme', theme); } catch (e) {}
+    });
+    // follow system changes until the visitor picks a theme
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+        var saved = null;
+        try { saved = localStorage.getItem('theme'); } catch (err) {}
+        if (!saved) root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+      });
+    }
+  })();
+</script>
