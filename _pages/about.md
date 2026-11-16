@@ -37,4 +37,4 @@ Selected Publications
 
 {% include publication-list.html selected=true %}
 
-See the [full publication list](/publications/) for all papers.
+[More publications →](/publications/)
