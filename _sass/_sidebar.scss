@@ -117,6 +117,7 @@
 
 .author__name {
   margin: 0;
+  color: $navy;
 
   @include breakpoint($large) {
     margin-top: 10px;

@@ -196,7 +196,7 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: $navy;
     color: #fff;
     cursor: pointer;
     z-index: 100;
@@ -234,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        background: $light-blue;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -248,6 +248,19 @@
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
       }
+    }
+
+    /* site title and current page */
+    li:first-child a,
+    .masthead__menu-item--active a {
+      color: $navy;
+    }
+
+    .masthead__menu-item--active a:before {
+      background: $navy;
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
     }
   }
 
@@ -269,8 +282,13 @@
 
       &:hover {
         color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        background: mix(#fff, $light-blue, 75%);
       }
+    }
+
+    .masthead__menu-item--active a {
+      color: $navy;
+      font-weight: bold;
     }
 
     &:before {

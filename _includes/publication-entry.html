@@ -1,0 +1,15 @@
+{% assign pub = include.pub %}
+{% assign kind = include.kind | default: pub.type | default: 'conference' %}
+<div class="pub">
+<div class="pub__venue pub__venue--{{ kind }}"><span class="pub__venue-name">{{ pub.venue }}</span><span class="pub__venue-year">{{ pub.year }}</span>{% if include.show_type %}<span class="pub__venue-type">{{ kind | capitalize }}</span>{% endif %}</div>
+<div class="pub__body">
+<div class="pub__title">{{ pub.title }}</div>
+<div class="pub__authors">{{ pub.authors | replace: site.author.name, include.me }}</div>
+<div class="pub__meta">{% if pub.publisher %}{{ pub.publisher }}{% elsif pub.arxiv %}arXiv preprint arXiv:{{ pub.arxiv }}{% endif %}{% if pub.date %}, {{ pub.date }}{% endif %}.{% for tag in pub.tags %} <span class="pub__tag">{{ tag }}</span>{% endfor %}</div>
+{% if pub.pdf or pub.code or pub.arxiv %}<div class="pub__links">
+{% if pub.arxiv %}<a class="pub__btn" href="https://arxiv.org/abs/{{ pub.arxiv }}"><i class="ai ai-arxiv pub__icon-arxiv" aria-hidden="true"></i> arXiv</a>{% endif %}
+{% if pub.pdf %}{% if pub.pdf contains '://' %}{% assign pdf_url = pub.pdf %}{% else %}{% assign pdf_url = include.base_path | append: '/' | append: pub.pdf %}{% endif %}<a class="pub__btn" href="{{ pdf_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>{% endif %}
+{% if pub.code %}<a class="pub__btn" href="{{ pub.code }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
+</div>{% endif %}
+</div>
+</div>

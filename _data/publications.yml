@@ -1,0 +1,112 @@
+# Publications shown on the home page, newest first.
+#
+# venue   : short venue name shown in the label in front of the entry
+# year    : year shown under the venue name
+# type    : set to journal for journal papers (conference by default)
+# selected: set to true to show a non-first-author paper under Selected Publications on the home page
+# authors : "*" marks equal contribution; site.author.name is highlighted automatically
+# date    : publication date shown after the publisher
+# tags    : optional labels such as Oral or Invited Paper
+# pdf/code: optional links; relative paths (e.g. files/pdfs/x.pdf) are resolved against the site root
+
+- venue: ICML
+  year: 2026
+  selected: true
+  authors: Ruishuo Chen, Xun Wang, Rui Hu, Zhuoran Li, Longbo Huang
+  title: "Beyond the Proxy: Trajectory-Distilled Guidance for Offline GFlowNet Training"
+  publisher: Proceedings of Forty-third International Conference on Machine Learning
+  date: July 2026
+  pdf: https://openreview.net/pdf?id=eoFrV13CN7
+
+- venue: ICML
+  year: 2026
+  selected: true
+  authors: Hai Zhong, Xun Wang, Zhuoran Li, Longbo Huang
+  title: Reparameterization Proximal Policy Optimization
+  publisher: Proceedings of Forty-third International Conference on Machine Learning
+  date: July 2026
+  pdf: https://openreview.net/pdf?id=TknqRTyQ0a
+
+- venue: ICML
+  year: 2026
+  selected: true
+  authors: Hai Zhong, Zhuoran Li, Xun Wang, Longbo Huang
+  title: Reparameterization Flow Policy Optimization
+  publisher: Proceedings of Forty-third International Conference on Machine Learning
+  date: July 2026
+  pdf: https://openreview.net/pdf?id=Wx5XHJoeyn
+
+- venue: ICML
+  year: 2026
+  selected: true
+  authors: Zhuoran Li, Hai Zhong, Xun Wang, Qingxin Xia, Lihua Zhang, Longbo Huang
+  title: "Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies"
+  publisher: Proceedings of Forty-third International Conference on Machine Learning
+  date: July 2026
+  pdf: https://openreview.net/pdf?id=tHY0G4PhCR
+
+- venue: AAMAS
+  year: 2026
+  authors: Zhuoran Li, Xun Wang, Hai Zhong, Qingxin Xia, Lihua Zhang, Longbo Huang
+  title: "OM²P: Offline Multi-Agent Mean-Flow Policy"
+  publisher: Proceedings of The 25th International Conference on Autonomous Agents and Multi-Agent Systems
+  date: May 2026
+  tags: [Oral]
+  pdf: https://ifaamas.org/Proceedings/aamas2026/pdfs/WULT4244.pdf
+
+- venue: QCNC
+  year: 2026
+  authors: Xun Wang, Longbo Huang, John C.S. Lui
+  title: Effective Entanglement Scheduling in Quantum Networks via Deep Reinforcement Learning
+  publisher: Proceedings of International Conference on Quantum Communications, Networking, and Computing
+  date: Apr. 2026
+  tags: [Oral, Invited Paper]
+  pdf: https://ieeexplore.ieee.org/abstract/document/11500282
+
+- venue: MobiHoc
+  year: 2025
+  authors: Xun Wang*, Zhuoran Li*, Longbo Huang
+  title: "Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning"
+  publisher: The 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
+  date: Oct. 2025
+  tags: [Oral]
+  pdf: https://dl.acm.org/doi/10.1145/3704413.3764445
+  code: https://github.com/Misakau/HEMA
+
+- venue: TNNLS
+  type: journal
+  year: 2025
+  authors: Xun Wang, Jingmian Wang, Zhuzhong Qian and Bolei Zhang
+  title: Online Adaptable Offline RL with Guidance Model
+  publisher: IEEE Transactions on Neural Networks and Learning Systems, vol. 36, no. 11, pp. 19762-19774
+  date: Nov. 2025
+  pdf: https://ieeexplore.ieee.org/document/11095835
+
+- venue: TMLR
+  type: journal
+  year: 2025
+  authors: Pihe Hu*, Shaolong Li*, Xun Wang, Longbo Huang
+  title: "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining"
+  publisher: Transactions on Machine Learning Research
+  date: Mar. 2025
+  pdf: https://openreview.net/pdf?id=XosdLS7KVE
+  code: https://github.com/hupihe/Mixed-Sparsity-Training
+
+- venue: AAMAS
+  year: 2025
+  authors: Hai Zhong, Xun Wang, Zhuoran Li, Longbo Huang
+  title: Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration
+  publisher: Proceedings of The 24th International Conference on Autonomous Agents and Multi-Agent Systems
+  date: May 2025
+  tags: [Oral]
+  pdf: https://dl.acm.org/doi/10.5555/3709347.3743878
+
+- venue: ECAI
+  year: 2023
+  authors: Xun Wang, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang
+  title: "SDV: Simple Double Validation Model-based Offline Reinforcement Learning"
+  publisher: Proceedings of 26th European Conference on Artificial Intelligence
+  date: Sept. 2023
+  tags: [Oral]
+  pdf: files/pdfs/sdv_ecai23.pdf
+  code: https://github.com/Misakau/SDV

@@ -1,0 +1,31 @@
+{% comment %}
+  Renders _data/publications.yml, or _data/preprints.yml with preprints=true.
+  jump_bar=true      : only render the jump bar (#preprints and one link per year) with the legend
+  by_year=true       : group by year and label each paper's type
+  selected=true      : only list papers marked selected: true, plus those whose first (or co-first) author is site.author.name
+{% endcomment %}
+{% include base_path %}
+{% capture me %}<span class="pub__me">{{ site.author.name }}</span>{% endcapture %}
+{% if include.preprints %}
+<div class="pub-list">
+{% for pub in site.data.preprints %}{% include publication-entry.html pub=pub me=me base_path=base_path kind="preprint" show_type=include.show_type %}{% endfor %}
+</div>
+{% elsif include.jump_bar %}
+{% assign groups = site.data.publications | group_by: "year" %}
+<nav class="pub-years">Jump to: <a href="#preprints">Preprints</a>{% for group in groups %} <a href="#year-{{ group.name }}">{{ group.name }}</a>{% endfor %}{% include publication-legend.html %}</nav>
+{% elsif include.by_year %}
+{% assign groups = site.data.publications | group_by: "year" %}
+{% for group in groups %}
+<h2 id="year-{{ group.name }}" class="pub-year">{{ group.name }}</h2>
+<div class="pub-list">
+{% for pub in group.items %}{% include publication-entry.html pub=pub me=me base_path=base_path show_type=true %}{% endfor %}
+</div>
+{% endfor %}
+{% else %}
+<div class="pub-list">
+{% for pub in site.data.publications %}
+{% if include.selected and pub.selected != true %}{% assign first_author = pub.authors | split: ',' | first | remove: '*' | strip %}{% if first_author != site.author.name %}{% continue %}{% endif %}{% endif %}
+{% include publication-entry.html pub=pub me=me base_path=base_path %}
+{% endfor %}
+</div>
+{% endif %}

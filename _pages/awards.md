@@ -3,8 +3,6 @@ layout: archive
 title: "Selected Awards"
 permalink: /awards/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}

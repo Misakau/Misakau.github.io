@@ -2,16 +2,21 @@
 permalink: /
 title: "About Me"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+About Me
+------
 Hi! I am Xun Wang (汪洵 in Chinese).
 
 I am currently a third-year Ph.D. student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I am fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html). Prior to this, I earned a Bachelor of Science degree in 2024 from the [School of Computer Science](https://cs.nju.edu.cn/cs_en/) at [Nanjing University](https://www.nju.edu.cn/en/).
 
-My research interests broadly lie in AI for decision-making, with a particular focus on the algorithms and applications of Reinforcement Learning (RL), Large Language Models (LLMs), and their intersection.
+Research Interests
+------
+My research interests broadly lie in AI for decision-making, focusing on the algorithms and applications of Reinforcement Learning (RL), Large Language Models (LLMs), and their intersection. Currently, I am studying how to leverage frontier models and architectures to achieve reliable and efficient decision-making in complex settings.
 
 News
 ------
@@ -19,29 +24,17 @@ News
 - **[2026.02]** Paper "OM²P: Offline Multi-Agent Mean-Flow Policy" accepted to AAMAS 2026!
 - **[2025.07]** Paper "Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning" accepted to MobiHoc 2025!
 - **[2025.07]** Paper "Online Adaptable Offline RL with Guidance Model" accepted to TNNLS!
-- **[2025.03]** Paper "Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining" accepted to TMLR!
-- **[2024.12]** Paper "Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration" accepted to AAMAS 2025!
 <!-- - **Jul. 2023:** Paper "SDV: Simple Double Validation Model-based Offline Reinforcement Learning" accepted to ECAI 2023! -->
 
-Publications
+Preprints
 ------
-\* indicates equal contribution
-- Ruishuo Chen, **Xun Wang**, Rui Hu, Zhuoran Li, Longbo Huang, *Beyond the Proxy: Trajectory-Distilled Guidance for Offline GFlowNet Training,* Proceedings of Forty-third International Conference on Machine Learning (<span style="background-color:#FFF8DC;">ICML</span>), July 2026. [\[pdf\]](https://openreview.net/pdf?id=eoFrV13CN7)
-- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Reparameterization Proximal Policy Optimization,* Proceedings of Forty-third International Conference on Machine Learning (<span style="background-color:#FFF8DC;">ICML</span>), July 2026. [\[pdf\]](https://openreview.net/pdf?id=TknqRTyQ0a)
-- Hai Zhong, Zhuoran Li, **Xun Wang**, Longbo Huang, *Reparameterization Flow Policy Optimization,* Proceedings of Forty-third International Conference on Machine Learning (<span style="background-color:#FFF8DC;">ICML</span>), July 2026. [\[pdf\]](https://openreview.net/pdf?id=Wx5XHJoeyn)
-- Zhuoran Li, Hai Zhong, **Xun Wang**, Qingxin Xia, Lihua Zhang, Longbo Huang, *Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies,* Proceedings of Forty-third International Conference on Machine Learning (<span style="background-color:#FFF8DC;">ICML</span>), July 2026. [\[pdf\]](https://openreview.net/pdf?id=tHY0G4PhCR)
 
+{% include publication-list.html preprints=true %}
 
-- Zhuoran Li, **Xun Wang**, Hai Zhong, Qingxin Xia, Lihua Zhang, Longbo Huang, *OM²P: Offline Multi-Agent Mean-Flow Policy*, Proceedings of The 25th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2026. [\[pdf\]](https://ifaamas.org/Proceedings/aamas2026/pdfs/WULT4244.pdf)
+Selected Publications
+------
+\* indicates equal contribution {% include publication-legend.html %}
 
-- **Xun Wang**, Longbo Huang, John C.S. Lui, *Effective Entanglement Scheduling in Quantum Networks via Deep Reinforcement Learning*, Proceedings of International Conference on Quantum Communications, Networking, and Computing (<span style="background-color:#FFF8DC;">QCNC</span>), Apr. 2026. (**Invited Paper**) [\[pdf\]](https://ieeexplore.ieee.org/abstract/document/11500282)
+{% include publication-list.html selected=true %}
 
-- **Xun Wang**\*, Zhuoran Li\*, Longbo Huang, *Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning*, the 26th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (<span style="background-color:#FFF8DC;">MobiHoc</span>), Oct. 2025. [\[pdf\]](https://dl.acm.org/doi/10.1145/3704413.3764445) [\[code\]](https://github.com/Misakau/HEMA)
-
-- **Xun Wang**, Jingmian Wang, Zhuzhong Qian and Bolei Zhang, *Online Adaptable Offline RL with Guidance Model*, IEEE Transactions on Neural Networks and Learning Systems (<span style="background-color:#FFF8DC;">TNNLS</span>), vol. 36, no. 11, pp. 19762-19774, Nov. 2025. [\[pdf\]](https://ieeexplore.ieee.org/document/11095835)
-
-- Pihe Hu\*, Shaolong Li\*, **Xun Wang**, Longbo Huang, *Mixed Sparsity Training: Achieving 4x FLOP Reduction for Transformer Pretraining*, Transactions on Machine Learning Research (<span style="background-color:#FFF8DC;">TMLR</span>), Mar. 2025. [\[pdf\]](https://openreview.net/pdf?id=XosdLS7KVE) [\[code\]](https://github.com/hupihe/Mixed-Sparsity-Training)
-
-- Hai Zhong, **Xun Wang**, Zhuoran Li, Longbo Huang, *Offline-to-Online Multi-Agent Reinforcement Learning with Offline Value Function Memory and Sequential Exploration*, Proceedings of The 24th International Conference on Autonomous Agents and Multi-Agent Systems (<span style="background-color:#FFF8DC;">AAMAS</span>), May 2025. [\[pdf\]](https://dl.acm.org/doi/10.5555/3709347.3743878)
-
-- **Xun Wang**, Haonan Chen, Junming Yang, Zhuzhong Qian and Bolei Zhang, *SDV: Simple Double Validation Model-based Offline Reinforcement Learning*, Proceedings of 26th European Conference on Artificial Intelligence (<span style="background-color:#FFF8DC;">ECAI</span>), Sept. 2023. <strong style="color: red;">Oral</strong>. [\[pdf\]](files/pdfs/sdv_ecai23.pdf) [\[code\]](https://github.com/Misakau/SDV)
+See the [full publication list](/publications/) for all papers.

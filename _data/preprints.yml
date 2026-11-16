@@ -1,0 +1,46 @@
+# Preprints shown under "Preprints" on the home and Publications pages, first-author papers first, then the rest; each group newest first.
+#
+# arxiv : arXiv identifier; the citation line and the arXiv button are generated from it
+# Other fields work the same as in publications.yml.
+
+- venue: arXiv
+  year: 2026
+  authors: Xun Wang, Ruishuo Chen, Yu Chen, Zhuoran Li, Longbo Huang
+  title: "FlexLoop: Depth-Elastic Looped Policies for Adaptive Test-Time Computation in Deep RL"
+  date: Sept. 2026
+  arxiv: "2609.34488"
+
+- venue: arXiv
+  year: 2026
+  authors: Xun Wang, Ruishuo Chen, Zhuoran Li, Yu Chen, Longbo Huang
+  title: "When Context Returns: Toward Robust Internalization in On-Policy Distillation"
+  date: June 2026
+  arxiv: "2606.11627"
+
+- venue: arXiv
+  year: 2025
+  authors: Xun Wang, Zhuoran Li, Yanshan Lin, Hai Zhong, Longbo Huang
+  title: "From Solo to Symphony: Orchestrating Multi-Agent Collaboration with Single-Agent Demos"
+  date: Nov. 2025
+  arxiv: "2511.02762"
+
+- venue: arXiv
+  year: 2026
+  authors: Ruishuo Chen, Xun Wang, Yu Chen, Zhuoran Li, Longbo Huang
+  title: "The Router Within: Eliciting Native Skill Routing from a Frozen LLM"
+  date: Sept. 2026
+  arxiv: "2609.15982"
+
+- venue: arXiv
+  year: 2026
+  authors: Yu Chen, Ruishuo Chen, Xun Wang, Zhuoran Li, Longbo Huang
+  title: Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees
+  date: Aug. 2026
+  arxiv: "2608.19993"
+
+- venue: arXiv
+  year: 2026
+  authors: Chenglin Liu, Xun Wang, Ruishuo Chen, Zhuoran Li, Longbo Huang
+  title: "MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models"
+  date: Aug. 2026
+  arxiv: "2608.18827"

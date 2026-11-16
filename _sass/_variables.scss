@@ -13,8 +13,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif                      : "Times New Roman", Times, "Liberation Serif", "Nimbus Roman", serif;
+$sans-serif                 : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -65,7 +65,14 @@ $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
+$text-color                 : #222;
+$navy                       : #0d2d5e;
+$heading-color              : #1a4f9c;
+$light-blue                 : #6a9fd4;
+$sky-blue                   : #2a8bd8;
+$oral-color                 : #c0392b;
+$journal-color              : #9a6700; // ochre: stays distinct from blue under common color blindness
+$arxiv-color                : #b31b1b; // arXiv brand red
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
@@ -102,11 +109,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color                 : $sky-blue;
+$link-color-hover           : $heading-color;
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : $light-blue;
+$masthead-link-color-hover  : $navy;
 
 
 /*

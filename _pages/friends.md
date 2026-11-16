@@ -3,8 +3,6 @@ layout: archive
 title: "Friends"
 permalink: /friends/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
