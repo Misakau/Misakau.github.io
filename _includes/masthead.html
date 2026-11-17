@@ -32,13 +32,17 @@
       root.setAttribute('data-theme', theme);
       try { localStorage.setItem('theme', theme); } catch (e) {}
     });
-    // follow system changes until the visitor picks a theme
+    /* follow system changes until the visitor picks a theme.
+       Use block comments only: the production build joins this script into one line. */
     if (window.matchMedia) {
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+      var query = window.matchMedia('(prefers-color-scheme: dark)');
+      var onChange = function (e) {
         var saved = null;
         try { saved = localStorage.getItem('theme'); } catch (err) {}
         if (!saved) root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-      });
+      };
+      if (query.addEventListener) query.addEventListener('change', onChange);
+      else if (query.addListener) query.addListener(onChange); /* Safari < 14 */
     }
   })();
 </script>
